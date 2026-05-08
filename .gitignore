@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+
+# Obsidian workspace (local only)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Windows
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Reports (regenerated on CI)
+vault/_meta/prolog_report.json
+
+# Sensitive key files -- NEVER commit
+*.key
+*.aes

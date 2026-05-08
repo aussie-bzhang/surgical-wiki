@@ -1,0 +1,11 @@
+# git-crypt: encrypt sensitive synthesis reports and Prolog KB
+vault/synthesis/**          filter=git-crypt diff=git-crypt
+vault/_meta/**              filter=git-crypt diff=git-crypt
+rules/**                    filter=git-crypt diff=git-crypt
+pipeline/**                 filter=git-crypt diff=git-crypt
+
+# Plain text -- not encrypted (structure only)
+vault/*.md                  text eol=lf
+*.gitattributes             text eol=lf
+README.md                   text eol=lf
+LICENSE                     text eol=lf

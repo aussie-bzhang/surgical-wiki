@@ -1,0 +1,35 @@
+# .github/workflows/prolog_verify.yml
+# Runs on every push to main -- verifies Prolog KB
+name: Prolog KB Verification
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install SWI-Prolog
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y swi-prolog
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Prolog KB verifier
+        run: python pipeline/surgical_prolog_verifier.py --swipl swipl
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: prolog-kb-report
+          path: vault/_meta/prolog_report.json

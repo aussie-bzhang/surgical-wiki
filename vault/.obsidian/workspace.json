@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "49178036cea91073",
+    "type": "split",
+    "children": [
+      {
+        "id": "beccbfd78428dcba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d02dd9eae086fa0f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d428482ae6cdd6f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff2800b25d3d7f58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e5daae3f3d84b7b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "0f1157084bfabf6b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#colorectal",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "ca9a1b0dac80cde9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "3bec4b22f6387717",
+    "type": "split",
+    "children": [
+      {
+        "id": "dce817b3affd935c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9bcbcc2380545190",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "2e578874ad55dd1d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "878e89273985bea3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": "colorectal"
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "564152d029f277df",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "cd3f861e5be9708b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "cd3f861e5be9708b",
+  "lastOpenFiles": [
+    "synthesis",
+    "肠/intestine_002.md",
+    "肠/intestine_001.md",
+    "_synthesis/A_subspecialty/SYNTHESIS_Appendix_and_Hernia.md",
+    "肠/intestine_020.md",
+    "肠/intestine_011.md",
+    "肠/intestine_004.md",
+    "00_MOC/MOC_Pancreaticoduodenal_Surgery.md",
+    "肛管疾病/anorectal_002.md",
+    "00_MOC/MOC_Colorectal_Surgery.md",
+    "00_MOC/MOC_Anorectal_Surgery.md",
+    "肛管疾病/anorectal_003.md"
+  ]
+}
