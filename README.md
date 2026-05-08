@@ -24,7 +24,7 @@
 Large nodes are subspecialty synthesis reports and MOC pages; surrounding
 satellite nodes are individual case pages.
 
-![SurgicalWiki Knowledge Graph](docs/images/knowledge_graph.png)
+![SurgicalWiki Knowledge Graph](https://raw.githubusercontent.com/aussie-bzhang/surgical-wiki/master/docs/images/knowledge_graph.png)
 
 > Tag distribution: surgery 61 · general-surgery 54 · colorectal 25 · hepatobiliary 11 · procedure-synthesis 4
 
